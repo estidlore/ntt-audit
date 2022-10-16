@@ -1,6 +1,13 @@
 {
-  "eslint.workingDirectories": [
-    "./src"
+  "editor.rulers": [
+    {
+      "color": "#808080",
+      "column": 80,
+    },
   ],
-  "typescript.validate.enable": true
+  "editor.tabSize": 2,
+  "eslint.workingDirectories": [
+    "./src",
+  ],
+  "typescript.validate.enable": true,
 }

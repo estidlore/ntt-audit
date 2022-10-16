@@ -9,4 +9,10 @@ $theme-colors: (
   "dark":       #080808,
 );
 
+.img-thumbnail {
+  margin: 4px;
+  height: 120px !important;
+  width: 160px !important;
+}
+
 @import "/node_modules/bootstrap/scss/bootstrap.scss";

@@ -1,3 +1,5 @@
+/* eslint-disable max-lines  */
+
 import type { IProvince } from "types/locations";
 
 const provinces: IProvince[] = [
@@ -5,7 +7,13 @@ const provinces: IProvince[] = [
     cities: [
       {
         name: "Bogotá",
-        projects: [],
+        projects: [
+          {
+            description: "Es grande y bonita :3",
+            name: "Construcción del año",
+            progress: 50,
+          }
+        ],
       }
     ],
     name: "Bogotá D.C."

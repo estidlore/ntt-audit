@@ -3,7 +3,10 @@ import type { IProvince } from "types/locations";
 const provinces: IProvince[] = [
   {
     cities: [
-      "Bogotá"
+      {
+        name: "Bogotá",
+        projects: [],
+      }
     ],
     name: "Bogotá D.C."
   },
@@ -77,21 +80,62 @@ const provinces: IProvince[] = [
   },
   {
     cities: [
-      "Albania",
-      "Barrancas",
-      "Dibulla",
-      "Distracción",
-      "El Molino",
-      "Fonseca",
-      "Hatonuevo",
-      "La Jagua",
-      "Maicao",
-      "Manaure",
-      "Riohacha",
-      "San Juan del Cesar",
-      "Uribia",
-      "Urumita",
-      "Villanueva"
+      {
+        name: "Albania",
+        projects: [],
+      },
+      {
+        name: "Barrancas",
+        projects: [],
+      },
+      {
+        name: "Dibulla",
+        projects: [],
+      },
+      {
+        name: "Distracción",
+        projects: [],
+      },
+      {
+        name: "El Molino",
+        projects: [],
+      },
+      {
+        name: "Fonseca",
+        projects: [],
+      },
+      {
+        name: "Hatonuevo",
+        projects: [],
+      },
+      {
+        name: "La Jagua",
+        projects: [],
+      },
+      {
+        name: "Maicao",
+        projects: [],
+      },
+      {
+        name: "Manaure",
+        projects: [],
+      },
+      {
+        name: "Riohacha",
+        projects: [],
+      },
+      {
+        name: "San Juan del Cesar",
+        projects: [],
+      },
+      {
+        name: "Urumita",
+        projects: [],
+      },
+      {
+        name: "Villanueva",
+        projects: [],
+      },
     ],
     name: "La Guajira"
   },

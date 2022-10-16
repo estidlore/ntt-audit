@@ -1,6 +1,13 @@
+import type { IProject } from "./project";
+
 interface IProvince {
   name: string;
-  cities: string[];
+  cities: ICity[];
 }
 
-export type { IProvince };
+interface ICity {
+  name: string;
+  projects: IProject[];
+}
+
+export type { ICity, IProvince };

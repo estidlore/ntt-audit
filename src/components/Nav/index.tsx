@@ -6,7 +6,7 @@ import { NavLink } from "./NavLink";
 
 interface INavProps {
   brand?: ReactNode;
-  children: ReactNode;
+  children?: ReactNode;
 }
 
 const Nav: FC<INavProps> = ({

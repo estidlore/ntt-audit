@@ -1,5 +1,6 @@
 /* eslint-disable max-lines  */
 
+import { ProjectScan } from "assets/imgs";
 import type { IProvince } from "types/locations";
 
 const provinces: IProvince[] = [
@@ -10,6 +11,7 @@ const provinces: IProvince[] = [
         projects: [
           {
             description: "Es grande y bonita :3",
+            image: ProjectScan,
             name: "Construcción del año",
             progress: 50,
           }

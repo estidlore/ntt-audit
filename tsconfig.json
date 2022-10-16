@@ -21,6 +21,7 @@
     "noUnusedParameters": true,
     "outDir": "dist",
     "paths": {
+      "assets/*": ["assets/*"],
       "components/*": ["components/*"],
       "imgs/*": ["imgs/*"],
       "styles/*": ["styles/*"],

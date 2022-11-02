@@ -14,7 +14,7 @@ const Nav: FC<INavProps> = ({
   children,
 }: Readonly<INavProps>): JSX.Element => (
   <nav
-    className={"bg-primary px-3 navbar navbar-dark navbar-expand-lg text-light"}
+    className={"bg-primary px-4 navbar navbar-dark navbar-expand-lg text-light"}
   >
     {brand === undefined ? undefined : (
       <RRNavLink className={"navbar-brand"} to={"/"}>

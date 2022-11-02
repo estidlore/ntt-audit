@@ -1,9 +1,15 @@
 .card {
   align-items: center;
+  cursor: pointer;
+  
+  &:hover {
+    opacity: 0.8;
+  }
 }
 
-.progress {
+.card-progress {
   align-items: center;
+  border: 2px solid #F8F8F8;
   border-radius: 50%;
   height: 50px;
   justify-content: center;
